@@ -81,8 +81,6 @@ public class PlayerScript : MonoBehaviour
         }
 
 
-
-
         if (livesValue <= 0 | scoreValue >= 8)
         {
             Destroy(sprite_rn);
@@ -94,6 +92,7 @@ public class PlayerScript : MonoBehaviour
         {
             Application.Quit();
         }
+       
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
